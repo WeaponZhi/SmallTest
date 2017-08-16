@@ -14,7 +14,6 @@ public class MainApplication extends Application{
     public void onCreate() {
         super.onCreate();
         TestLibPlugin libPlugin = new TestLibPlugin();
-        libPlugin.getLibMethod();
-        Toast.makeText(this,"plugin is loaded",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,libPlugin.getLibMethod(),Toast.LENGTH_LONG).show();
     }
 }

@@ -7,7 +7,8 @@ import android.util.Log;
  */
 
 public class TestLibPlugin {
-    public void getLibMethod() {
+    public String getLibMethod() {
         Log.e("Lib", "lib is loaded");
+        return "application is open";
     }
 }
